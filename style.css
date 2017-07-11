@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #4286f4;
+    background-color: #7787ec;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,14 +18,24 @@ h2 {
 }
 
 .button {
-    color: #ffffff;
-    padding: 10px;
-    background-color: #4271f4;
-    text-decoration: none;
-    width: 150px;
+    margin-top: 17px;
+    border-radius: 20px;    
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     display: inline-block;
-    border-radius: 3px;
+    padding: 9px 15px;
+    background-color: #00ab6b;
+    color: white;
     border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #01b6cc;
 }
 
 .container {
@@ -83,3 +93,70 @@ h2 {
     margin: 0;
 }
     
+.demo-background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.demo-background-1 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    background-color: #7787ec;
+    background-image: -webkit-linear-gradient(270deg, #002434, #002944 39%, #036 78%, #003c64);
+    background-image: linear-gradient(180deg, #002434, #002944 39%, #036 78%, #003c64);
+}
+
+.demo-background-2 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -2;
+    background-color: #00bbd2;
+    background-image: -webkit-linear-gradient(270deg, #003c61, #003650 15%, #00294e 34%, #00184b 72%, #001824);
+    background-image: linear-gradient(180deg, #003c61, #003650 15%, #00294e 34%, #00184b 72%, #001824);
+}
+
+.demo-background-3 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -3;
+    background-image: -webkit-linear-gradient(270deg, #003668, #00294e 18%, #00184b 55%, #100b49 80%, #001824);
+    background-image: linear-gradient(180deg, #003668, #00294e 18%, #00184b 55%, #100b49 80%, #001824);
+}
+
+.demo-background-4 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -4;
+    background-image: -webkit-linear-gradient(270deg, #004368, #003668 15%, #001c51 37%, #031042 83%, #0a0033);
+    background-image: linear-gradient(180deg, #004368, #003668 15%, #001c51 37%, #031042 83%, #0a0033);
+}
+
+.demo-background-5 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -5;
+    background-image: -webkit-linear-gradient(270deg, #001c51 18%, #031042 51%, #0a0033);
+    background-image: linear-gradient(180deg, #001c51 18%, #031042 51%, #0a0033);
+}
+
+
